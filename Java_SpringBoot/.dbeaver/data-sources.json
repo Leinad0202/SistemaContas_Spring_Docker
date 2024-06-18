@@ -1,0 +1,42 @@
+{
+	"folders": {},
+	"connections": {
+		"postgres-jdbc-1902d3d8a95-615afb4a329a67a3": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "contas_spring_database",
+			"save-password": true,
+			"configuration": {
+				"host": "0.0.0.0",
+				"port": "5432",
+				"database": "contas_spring_database",
+				"url": "jdbc:postgresql://0.0.0.0:5432/contas_spring_database",
+				"configurationType": "MANUAL",
+				"home": "postgresql-x64-16",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false",
+					"@dbeaver-chosen-role@": ""
+				},
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Desenvolvimento",
+			"color": "255,255,255",
+			"description": "Banco de dados de desenvolvimento",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": false,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}
