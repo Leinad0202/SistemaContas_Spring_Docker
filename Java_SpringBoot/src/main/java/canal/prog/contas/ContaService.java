@@ -10,6 +10,7 @@ import java.util.stream.Collectors;
 
 @Service
 public class ContaService {
+
     @Autowired
     private ContaRepository repository;
 
